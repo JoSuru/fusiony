@@ -1,0 +1,13 @@
+@media(hover){
+    /* header element to be removed */
+    header[data-testid="stHeader"] {
+        display:none;
+    }
+    /* The button on the streamlit navigation menu - hidden */
+    button[kind="header"] {
+        display: none;
+    }
+}
+ul[class="streamlit-expander st-bc st-as st-ar st-bd st-be st-b8 st-bf st-bg st-bh st-bi"] {
+    border-color: #6272a4;
+}
